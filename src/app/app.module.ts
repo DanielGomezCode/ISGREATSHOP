@@ -17,6 +17,7 @@ import { TechnologyComponent } from './categories/technology/technology.componen
 import { PetsComponent } from './categories/pets/pets.component';
 import { BeautyComponent } from './categories/beauty/beauty.component';
 import { FitnessComponent } from './categories/fitness/fitness.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FitnessComponent } from './categories/fitness/fitness.component';
     TechnologyComponent,
     PetsComponent,
     BeautyComponent,
-    FitnessComponent
+    FitnessComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
