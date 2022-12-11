@@ -237,3 +237,50 @@
     .action-info-text:first-child
         order: 1
         text-align: center
+
+
+/* ------------------------------------------------------ /*
+/*                 INVITAtION TO SHOP                    /*
+/* ------------------------------------------------------ /*
+
+/* General */
+.action-two
+    background: black
+    padding: 30px 50px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    color: white
+
+/* General-Info */
+.action-two-info h2
+    font-size: 40px
+    font-weight: 700
+    padding-bottom: 5px
+
+/* General-Btn */
+.action-two a
+    display: inline-block
+    padding: 15px 40px
+    background: white
+    color: black
+    font-weight: 600
+    transition: .2s ease
+
+.action-two a:hover
+    background: #70FF00
+    font-size: 18px
+    transition: .2s ease
+
+/* MEDIA QUIERIES */
+@media screen and (max-width:950px)
+    .action-two
+        flex-direction: column
+        text-align: center
+    
+    .action-two-info h2
+        font-size: 30px
+        padding-bottom: 20px
+        
+    .action-two a
+        margin-top: 30px

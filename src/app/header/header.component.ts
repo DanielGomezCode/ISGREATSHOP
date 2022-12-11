@@ -34,5 +34,11 @@ export class HeaderComponent implements OnInit {
       sidebar.classList.remove('active')
     })
 
+    //Scroll Header
+    window.onscroll = function(){
+      var menu = document.getElementsByClassName('first-header')[0]
+      menu.classList.toggle('white', window.scrollY>0);   
+  }
+
   }
 }
