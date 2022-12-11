@@ -179,3 +179,61 @@
         width: 360px
 
 
+/* ------------------------------------------------------ /*
+/*                 INFORMACION SOBRE COMPRA               /*
+/* ------------------------------------------------------ /*
+
+/*General*/
+.action-one
+    color: white
+    background: black
+    padding: 30px 50px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+/*Contenedores*/
+.action-info
+    display: flex
+    align-items: center
+
+#action-icon
+    font-size: 30px
+    color: black
+    padding: 20px
+    border-radius: 50px
+    background: white
+
+#action-icon:last-child
+    padding: 20px 25px
+
+.action-info-text
+    padding: 20px
+
+.action-info-text:first-child
+    text-align: right
+
+.action-info-text h2
+    font-size: 26px
+    font-weight: 700
+
+.action-info-text p
+    font-size: 18px
+    padding-top: 5px
+
+/*MEDIA QUIERES*/
+@media screen and (max-width:950px)
+    .action-one
+        flex-direction: column
+    
+    .action-info
+        flex-direction: column
+        text-align: center
+        margin: 20px 0
+
+    .action-info-text p
+        margin-top: 20px
+
+    .action-info-text:first-child
+        order: 1
+        text-align: center
